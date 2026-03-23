@@ -12,3 +12,7 @@ time to source the svgs of the memes ugh.
 
 this is what i get for downloading um something in a file format only used for web dev and not naming it correclty
 now I have to code for javascript to play it once i open the page so i realize what meme it is
+
+
+I mean, this has to be one of the most unserious project I have ever attempted yet I have coded 30 minutes already
+Time really does fly when you're having fun

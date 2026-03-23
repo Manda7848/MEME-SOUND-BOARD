@@ -3,9 +3,9 @@ window.onload = () => {
 
 
 
-// UM JAVASCRIPT IS STILL PLAYING THE SOUND WHWNWVER I MAKE A ChannelMergerNode, IDK WHY. BUT NOW I KNOW WHAT SOUND IT WAS INITIALLY HEHHHHH
+// // UM JAVASCRIPT IS STILL PLAYING THE SOUND WHWNWVER I MAKE A ChannelMergerNode, IDK WHY. BUT NOW I KNOW WHAT SOUND IT WAS INITIALLY HEHHHHH
 // {
-//     document.getElementById("clickme").onclick = play(); 
+//     document.getElementById("clickme").onclick = play; 
 
 
 //     function play() {

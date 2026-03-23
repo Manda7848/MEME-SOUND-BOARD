@@ -100,7 +100,7 @@ meme11.play();
 
 function play12() {
 console.log("You would have probably lost all your money if you were on 'The Price is Right' rn");
-mama12.play();
+meme12.play();
 }
 
 // // UM JAVASCRIPT IS STILL PLAYING THE SOUND WHWNWVER I MAKE A ChannelMergerNode, IDK WHY. BUT NOW I KNOW WHAT SOUND IT WAS INITIALLY HEHHHHH

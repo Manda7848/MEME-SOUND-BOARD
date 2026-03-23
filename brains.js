@@ -16,4 +16,11 @@ window.onload = () => {
 
 // }
 
+document.getElementById("1").onclick = play; 
+
+ function play() {
+console.log("Sound played");
+let mySound = new Audio('./sounds/youarenotfine.weba');
+mySound.play();
+    }
 }

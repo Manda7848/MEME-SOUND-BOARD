@@ -10,4 +10,19 @@ grid-template-columns: repeat(3, 100px);
 grid-template-rows: repeat(4, 100px);
 gap: 170px;
 background-color: blue;
+align-self: center;
+justify-content: center;
+}
+
+.meme{
+    width: 200px;
+    height: 200px;
+    border: solid 3px black; 
+    box-shadow: black 7px 9px;
+}
+
+.meme:hover{
+border: solid 10px black; 
+    box-shadow: white 7px 9px;
+
 }

@@ -15,6 +15,19 @@ window.onload = () => {
     let meme11 = new Audio('./sounds/wow.m4a');
     let meme12 = new Audio('./sounds/you-lose.m4a');
 
+    // ONCLICK FUNCTIONS
+document.getElementById("1").onclick = play1;
+document.getElementById("2").onclick = play2;
+document.getElementById("3").onclick = play3;
+document.getElementById("4").onclick = play4;
+document.getElementById("5").onclick = play5;
+document.getElementById("6").onclick = play6;
+document.getElementById("7").onclick = play7;
+document.getElementById("8").onclick = play8;
+document.getElementById("9").onclick = play9;
+document.getElementById("10").onclick = play10;
+document.getElementById("11").onclick = play11;
+document.getElementById("12").onclick = play12;
 
 // // UM JAVASCRIPT IS STILL PLAYING THE SOUND WHWNWVER I MAKE A ChannelMergerNode, IDK WHY. BUT NOW I KNOW WHAT SOUND IT WAS INITIALLY HEHHHHH
 // {

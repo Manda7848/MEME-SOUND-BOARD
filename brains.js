@@ -29,6 +29,80 @@ document.getElementById("10").onclick = play10;
 document.getElementById("11").onclick = play11;
 document.getElementById("12").onclick = play12;
 
+
+
+// SCRIPTING TIMEEEE(WHAT IS A SCRIPT KIDDIE?!)
+// OH DANG, SCRIPT KIDDIE IS A SLUR
+
+function play1() {
+console.log("They ask you how you are and you say that you're fine but you're not fine but you just don't wanna get into it cus they would never understand");
+meme1.play();
+
+}
+
+function play2() {
+console.log("Khaby Lame thinks that what you just said was really dumb, like really really dumb");
+meme2.play();
+}
+
+function play3() {
+console.log("This goat really likes to scream");
+meme3.play();
+
+}
+
+function play4() {
+    console.log("Slow down with the chugging vro");
+    meme4.play();
+}
+
+function play5() {
+    console.log("Whoa, all these steaks all for you?");
+    meme5.play();
+}
+
+function play6() {
+    console.log("nope");
+    meme6.play();
+}
+
+function play7() {
+console.log("Very distressed plankton");
+meme7.play;
+
+}
+
+function play8() {
+console.log("YOU LOST SO MUCH OF YOUR SOCIAL CREDIT");
+meme8.play();
+
+}
+
+function play9() {
+console.log("You have confused me");
+meme9.play();
+
+}
+
+
+function play10() {
+console.log("Dwayne Raises his eyebrow at whatever it was you just said");
+meme10.play;
+
+}
+
+function play11() {
+console.log("WOW, SO MUCH WOW");
+meme11.play();
+
+}
+
+
+function play12() {
+console.log("You would have probably lost all your money if you were on 'The Price is Right' rn");
+mama12.play();
+}
+
 // // UM JAVASCRIPT IS STILL PLAYING THE SOUND WHWNWVER I MAKE A ChannelMergerNode, IDK WHY. BUT NOW I KNOW WHAT SOUND IT WAS INITIALLY HEHHHHH
 // {
 //     document.getElementById("clickme").onclick = play; 
@@ -42,11 +116,11 @@ document.getElementById("12").onclick = play12;
 
 // }
 
-document.getElementById("1").onclick = play; 
+// document.getElementById("1").onclick = play; 
 
- function play() {
-console.log("Sound played");
-let mySound = new Audio('./sounds/youarenotfine.weba');
-mySound.play();
-    }
+//  function play() {
+// console.log("Sound played");
+// let mySound = new Audio('./sounds/youarenotfine.weba');
+// // mySound.play();
+//     }
 }

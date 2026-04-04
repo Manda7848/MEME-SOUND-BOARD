@@ -23,3 +23,5 @@ More than half of the sounds are not working for some reason but irdc
 time to try the vercel cli cus i feel that it would look cool and make me look like a hacker
 my terminal on vscode takes so long to load
 Downloading files from the internet and having nothing to use as a progress bar is so so so annyoing.
+
+I love using console.log

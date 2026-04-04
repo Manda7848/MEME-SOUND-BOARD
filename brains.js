@@ -1,5 +1,31 @@
 window.onload = () => {
-
+const prompts = [
+"When the food is 1000 degrees but you're too hungry to care",
+"When the water is just at the chuggable temperature",
+"POV: You just finished the exams and then someone asks about the back page",
+"POV: Your brand new phone decided to backflip off the bed and broke", 
+"When your seat partner asks the teacher a question they just answered",
+"When someone says they 'don't like music'",
+"POV: The guests don't mind you eating first",
+"POV: You decided to feed a baby a lemon",
+"POV: You smelled the milk to see if it's spoiled",
+"POV: You just gave the wrong directions to a tourist",
+"POV: You're calculating how long you can stay outside without your parents noticing",
+"When someone asks 'Are you sure you're not asleep' after you responded for the third time in a row",
+"POV: The food the waiter was holding was actually yours",
+"POV: Your sibling lets you eat the first bite of pizza",
+"POV: The soap dripped down your sleeve into your shirt",
+"POV: You're late to class and the teacher isn't even there",
+"The sound everyone collectively makes when they see a helicopter",
+"POV: Your code worked on first try",
+"POV: When the annoying cousin ends up in your room and you just wanted to nap",
+"POV: Someone pulled your seat back when you stood up and tried to sit back down",
+"POV: You listen to your voice in a video",
+"When the 1 minute youtube video has a 30 second unskippable ad",
+"When you show your mom a funny meme and she starts swiping",
+"POv: The cockroach you were avoiding starts flying"
+];
+console.log(prompts);
     // AUDIOO
 
     let meme1 = new Audio('./sounds/youarenotfine.weba');
@@ -36,40 +62,46 @@ document.getElementById("12").onclick = play12;
 
 function play1() {
 console.log("They ask you how you are and you say that you're fine but you're not fine but you just don't wanna get into it cus they would never understand");
+meme1.currentTime = 0;
 meme1.play();
 
 }
 
 function play2() {
 console.log("Khaby Lame thinks that what you just said was really dumb, like really really dumb");
+meme2.currentTime = 0;
 meme2.play();
 }
 
 function play3() {
 
 console.log("Slow down with the chugging vro");
+meme3.currentTime = 0;
 meme3.play();
 
 }
 
 function play4() {
      console.log("Whoa, all these steaks all for you?");
+     meme4.currentTime = 0;
     meme4.play();
 }
 
 function play5() {
     console.log("This goat really likes to scream");
-   
+   meme5.currentTime = 0;
     meme5.play();
 }
 
 function play6() {
   
     console.log("Very distressed plankton");
+    meme6.currentTime = 0;
     meme6.play();
 }
 
 function play7() {
+    meme7.currentTime = 0;
   console.log("nope");
 
 meme7.play();
@@ -78,12 +110,14 @@ meme7.play();
 
 function play8() {
 console.log("YOU LOST SO MUCH OF YOUR SOCIAL CREDIT");
+meme8.currentTime = 0;
 meme8.play();
 
 }
 
 function play9() {
 console.log("You have confused me");
+meme9.cuttentTime = 0;
 meme9.play();
 
 }
@@ -91,12 +125,14 @@ meme9.play();
 
 function play10() {
 console.log("Dwayne Raises his eyebrow at whatever it was you just said");
+meme10.currentTime = 0;
 meme10.play();
 
 }
 
 function play11() {
 console.log("WOW, SO MUCH WOW");
+meme11.currentTime = 0;
 meme11.play();
 
 }
@@ -104,6 +140,7 @@ meme11.play();
 
 function play12() {
 console.log("You would have probably lost all your money if you were on 'The Price is Right' rn");
+meme12.currentTime = 0;
 meme12.play();
 }
 

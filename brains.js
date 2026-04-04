@@ -25,6 +25,18 @@ const prompts = [
 "When you show your mom a funny meme and she starts swiping",
 "POv: The cockroach you were avoiding starts flying"
 ];
+
+let current;
+
+function pick() {
+    let index = Math.floor(Math.random() * prompts.length);
+    let current = prompts[index]; 
+document.getElementById("prompt").innerText = current;
+    console.log(current);
+}
+
+pick();
+
 console.log(prompts);
     // AUDIOO
 
@@ -64,6 +76,7 @@ function play1() {
 console.log("They ask you how you are and you say that you're fine but you're not fine but you just don't wanna get into it cus they would never understand");
 meme1.currentTime = 0;
 meme1.play();
+pick();
 
 }
 
@@ -71,6 +84,7 @@ function play2() {
 console.log("Khaby Lame thinks that what you just said was really dumb, like really really dumb");
 meme2.currentTime = 0;
 meme2.play();
+pick();
 }
 
 function play3() {
@@ -78,6 +92,7 @@ function play3() {
 console.log("Slow down with the chugging vro");
 meme3.currentTime = 0;
 meme3.play();
+pick();
 
 }
 
@@ -85,12 +100,14 @@ function play4() {
      console.log("Whoa, all these steaks all for you?");
      meme4.currentTime = 0;
     meme4.play();
+    pick();
 }
 
 function play5() {
     console.log("This goat really likes to scream");
    meme5.currentTime = 0;
     meme5.play();
+    pick();
 }
 
 function play6() {
@@ -98,13 +115,14 @@ function play6() {
     console.log("Very distressed plankton");
     meme6.currentTime = 0;
     meme6.play();
+    pick();
 }
 
 function play7() {
     meme7.currentTime = 0;
   console.log("nope");
-
-meme7.play();
+  meme7.play();
+  pick();
 
 }
 
@@ -112,6 +130,7 @@ function play8() {
 console.log("YOU LOST SO MUCH OF YOUR SOCIAL CREDIT");
 meme8.currentTime = 0;
 meme8.play();
+pick();
 
 }
 
@@ -119,6 +138,7 @@ function play9() {
 console.log("You have confused me");
 meme9.cuttentTime = 0;
 meme9.play();
+pick();
 
 }
 
@@ -127,6 +147,7 @@ function play10() {
 console.log("Dwayne Raises his eyebrow at whatever it was you just said");
 meme10.currentTime = 0;
 meme10.play();
+pick();
 
 }
 
@@ -134,6 +155,7 @@ function play11() {
 console.log("WOW, SO MUCH WOW");
 meme11.currentTime = 0;
 meme11.play();
+pick();
 
 }
 
@@ -142,6 +164,7 @@ function play12() {
 console.log("You would have probably lost all your money if you were on 'The Price is Right' rn");
 meme12.currentTime = 0;
 meme12.play();
+pick();
 }
 
 // // UM JAVASCRIPT IS STILL PLAYING THE SOUND WHWNWVER I MAKE A ChannelMergerNode, IDK WHY. BUT NOW I KNOW WHAT SOUND IT WAS INITIALLY HEHHHHH

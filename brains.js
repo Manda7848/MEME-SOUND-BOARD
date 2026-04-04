@@ -4,11 +4,11 @@ window.onload = () => {
 
     let meme1 = new Audio('./sounds/youarenotfine.weba');
     let meme2 = new Audio('./sounds/bruh.m4a');
-    let meme3 = new Audio('./sounds/goat-scream.m4a');
-    let meme4 = new Audio('./sounds/minecraf-drinking.m4a');
-    let meme5 = new Audio('./sounds/minecraft-eating.weba');
-    let meme6 = new Audio('./sounds/nope.m4a');
-    let meme7 = new Audio('./sounds/plankton_moaning.mp3');
+    let meme5 = new Audio('./sounds/goat-scream.m4a');
+    let meme3 = new Audio('./sounds/minecraf-drinking.m4a');
+    let meme4 = new Audio('./sounds/minecraft-eating.weba');
+    let meme7 = new Audio('./sounds/nope.m4a');
+    let meme6 = new Audio('./sounds/plankton_moaning.mp3');
     let meme8 = new Audio('./sounds/social credit.m4a');
     let meme9 = new Audio('./sounds/thinking.weba');
     let meme10 = new Audio('./sounds/vine-boom.weba');

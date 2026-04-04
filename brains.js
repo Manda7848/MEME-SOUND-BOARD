@@ -7,11 +7,11 @@ window.onload = () => {
     let meme5 = new Audio('./sounds/goat-scream.m4a');
     let meme3 = new Audio('./sounds/minecraf-drinking.m4a');
     let meme4 = new Audio('./sounds/minecraft-eating.weba');
-    let meme7 = new Audio('./sounds/nope.m4a');
+    let meme7 = new Audio('./sounds/nope2.m4a');
     let meme6 = new Audio('./sounds/plankton_moaning.mp3');
     let meme8 = new Audio('./sounds/social credit.m4a');
     let meme9 = new Audio('./sounds/thinking.weba');
-    let meme10 = new Audio('./sounds/vine-boom.weba');
+    let meme10 = new Audio('./sounds/vine-boom2.weba');
     let meme11 = new Audio('./sounds/wow.m4a');
     let meme12 = new Audio('./sounds/you-lose.m4a');
 
@@ -72,7 +72,7 @@ function play6() {
 function play7() {
   console.log("nope");
 
-meme7.play;
+meme7.play();
 
 }
 
@@ -91,7 +91,7 @@ meme9.play();
 
 function play10() {
 console.log("Dwayne Raises his eyebrow at whatever it was you just said");
-meme10.play;
+meme10.play();
 
 }
 

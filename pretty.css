@@ -1,10 +1,30 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Elite&display=swap');
+
 *{
     box-sizing: border-box; 
+
+}
+body{
+    font-family: "Roboto Mono", monospace;
+    background-color: blue;
+}
+
+#welcome{
+    align-self: center;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    box-shadow: blue 10px 10px;
+    padding: 10px;
 }
 
 
 #grid {
-
+border: 10px black solid;
 display: grid;
 grid-template-columns: repeat(3, 100px);
 grid-template-rows: repeat(4, 100px);
@@ -12,17 +32,22 @@ gap: 170px;
 background-color: blue;
 align-self: center;
 justify-content: center;
+padding-top: 30px;
+padding-bottom: 10px;
+height: 170vh;
+margin-left:0 ;
+
 }
 
 .meme{
     width: 200px;
     height: 200px;
-    border: solid 3px black; 
+    border: solid 5px black; 
     box-shadow: black 7px 9px;
 }
 
 .meme:hover{
-border: solid 10px black; 
-    box-shadow: white 7px 9px;
+border: solid 15px black; 
+    box-shadow: white 7px 10px;
 
 }

@@ -20,14 +20,15 @@ body{
     border-radius: 20px;
     box-shadow: blue 10px 10px;
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 
 #grid {
 border: 10px black solid;
 display: grid;
-grid-template-columns: repeat(3, 100px);
-grid-template-rows: repeat(4, 100px);
+grid-template-columns: repeat(4, 100px);
+grid-template-rows: repeat(3, 100px);
 gap: 170px;
 background-color: blue;
 align-self: center;

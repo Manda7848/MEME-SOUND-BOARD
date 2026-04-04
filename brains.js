@@ -46,28 +46,32 @@ meme2.play();
 }
 
 function play3() {
-console.log("This goat really likes to scream");
+
+console.log("Slow down with the chugging vro");
 meme3.play();
 
 }
 
 function play4() {
-    console.log("Slow down with the chugging vro");
+     console.log("Whoa, all these steaks all for you?");
     meme4.play();
 }
 
 function play5() {
-    console.log("Whoa, all these steaks all for you?");
+    console.log("This goat really likes to scream");
+   
     meme5.play();
 }
 
 function play6() {
-    console.log("nope");
+  
+    console.log("Very distressed plankton");
     meme6.play();
 }
 
 function play7() {
-console.log("Very distressed plankton");
+  console.log("nope");
+
 meme7.play;
 
 }
